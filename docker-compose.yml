@@ -1,0 +1,6 @@
+version: "2"
+
+services:
+  php-fpm-gearman:
+    image: digitalcanvasdesign/php-fpm-gearman:7.1-fpm
+    build: ./
